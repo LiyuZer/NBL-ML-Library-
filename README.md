@@ -1,11 +1,9 @@
-Neural Network Library
-Overview
-This neural network library is crafted to enable the creation and optimization of any computational node structure, delivering the intended output with efficiency. It's designed with flexibility in mind, allowing users to build and tailor their neural network models to specific requirements.
+# Neural Network Library
 
-Key Features
-Dynamic Tree for Automatic Differentiation: At the heart of this library is a dynamic tree structure that facilitates automatic differentiation. This feature is crucial for optimizing neural network training, making the calculation of gradients both accurate and efficient.
+## Introduction
+This neural network library is specifically designed to facilitate the construction and optimization of any computational node structure, aiming to produce the desired output efficiently. It is ideal for those who need a flexible and customizable neural network solution.
 
-Pre-Made Layers: To streamline the development process, the library includes pre-made layers such as convolution and feed-forward layers. These are optimized for single-threaded environments and do not require GPU support, making the library accessible for a wide range of users and systems.
-
-Non-GPU Optimization: Understanding the resource constraints in various environments, this library is finely tuned for optimal performance on non-GPU systems, ensuring high efficiency even in single-thread environments.
-
+## Features
+- **Dynamic Tree for Automatic Differentiation**: Implements a dynamic tree structure crucial for automatic differentiation, optimizing the training process by accurately and efficiently calculating gradients.
+- **Pre-Made Layers**: Includes ready-to-use convolutional and feed-forward layers, optimized for single-thread and non-GPU environments, simplifying the development process.
+- **Optimized for Non-GPU Use**: Fine-tuned for high performance in single-threaded, non-GPU systems, ensuring accessibility and efficiency across various hardware configurations.
